@@ -5,9 +5,11 @@ print(rev)
 
 #to rev the string without usingout slicing
 string = "hello world"
+rev=""
 for char in string:
     rev = char + rev
-    print(rev)
+    
+print(rev)
 
     #to rev the string using recursion
 
