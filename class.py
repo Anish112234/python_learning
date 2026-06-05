@@ -22,4 +22,28 @@ class device:
     self.model=model
 device1=device("Anroid","POCO-x3")
 print("The brand of Device is",device1.brand) 
-print("The Mode of Device",device1.model)  
+print("The Model of Device",device1.model)  
+
+#instanc
+#bug here fixed this later
+class device:
+   def __init__(self,brand,model):
+    self.brand=brand
+    self.model=model
+    
+    def full_name(self):
+      return f"{self.brand}{self.model}"
+    
+
+device1=device("Anroid","POCO-x3")
+print("The brand of Device is",device1.brand) 
+print("The Model of Device",device1.model) 
+print(device1.full_name())
+
+
+#inheritance 
+#do in home
+
+#HW WAP display the parent's deals on the student and make a another class of the students and inheritance the parent class
+
+
