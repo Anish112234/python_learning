@@ -44,9 +44,42 @@ square(2)
 print("\n")
 
 #pring print largest,smallest and average based on list 
-numbers = [10,20,30,40,50]
+numbers = [10,32,30,21,47]
+largest_num=numbers[0]
 for num in numbers:
-    if num>numbers:
-     print(num)
+    if num>largest_num:
+        largest_num=num
+        print("Largest num:",largest_num)
+
+print("\n")
+#for smallest 
+smallest_num=numbers[0]
+for num in numbers:
+    if num<smallest_num:
+        smallest_num=num
+        print("samllest num",smallest_num)
     
+    #for avg
+    total=0
+    for num in numbers:
+
+      total += num
+
+avg=total/len(numbers)
+print("average number:",avg)
+
+print("\n")
+#count even numbers
+even_counnt=0
+odd_count=0
+for num in numbers:
+    if num%2==0:
+     even_counnt+=1
+    else:
+        odd_count+=1
+    
+print("even",even_counnt)
+print("odd",odd_count)
+
+
     
