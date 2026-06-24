@@ -13,7 +13,6 @@ if a>b:
     print("The greate number is a",a)
 else:
     print("The greater number is b",b)
-
 #given a dictornary print a name
 dict={"name":"Anish","age":20,"Address":"lalitpur"}
 print(dict["name"])
